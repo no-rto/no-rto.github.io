@@ -18,6 +18,7 @@ body {
       display: block;
     }
 
+    /*
     table {
       100vw;
     }
@@ -27,23 +28,21 @@ body {
     }
       
     td {
-      /* Behave  like a "row" */
       border: none;
       border-bottom: 1px solid #eee;
       position: relative;
-      /*padding-left: 50%;*/
+      padding-left: 50%;
     }
 
     td:before {
-      /* Now like a table header */
       position: absolute;
-      /* Top/left values mimic padding */
       top: 0;
       left: 6px;
-      /*width: 45%;*/
+      width: 45%;
       padding-right: 10px;
       white-space: nowrap;
     }
+    */
   }
 
 a {
