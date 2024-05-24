@@ -18,9 +18,20 @@ div {
   margin: auto;
 }
 
+.bdiv {
+  background-color: #FFFFFF;
+  position: relative;
+  border-radius: 10px;
+  width: 20%;
+  margin: auto;
+  margin-right: 5px;
+  padding: 5px;
+  height: 110px;
+  flex: 1;
+}
+
 .button {
   color: #1A2B53;
-  background-color: #FFFFFF;
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -30,7 +41,6 @@ div {
 
 .button_name {
   color: #DA2020;
-  background-color: #FFFFFF;
   /*font-family: "Satisfy", cursive;*/
   font-family: "Homemade Apple", cursive;
   font-weight: 400;
