@@ -1,10 +1,10 @@
 body {
   background-image: url("traffic_cars_road_travel.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-attachment: fixed;
   text-align: center;
   color: #1A2B53;
-  background-color: #56d368;
+  background-color: #676C68;
   font-family: "Roboto", sans-serif;
 }
 
