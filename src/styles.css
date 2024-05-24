@@ -1,0 +1,65 @@
+body {
+  background-image: url("traffic_cars_road_travel.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: #1A2B53;
+  background-color: #56d368;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #1A2B53;
+  text-decoration: none;
+}
+
+div {
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  color: #1A2B53;
+  background-color: #FFFFFF;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.button_name {
+  color: #DA2020;
+  background-color: #FFFFFF;
+  /*font-family: "Satisfy", cursive;*/
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  border-spacing: 5px;
+  border-radius:10px;
+  margin-top: 0px;
+  width: 70%;
+}
+
+
+h1 {
+  color: #DA2020;
+}
+
+td {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding:5px;
+  width: 20%;
+  vertical-align: top;
+}
+
+p {
+  text-align: left;
+}
