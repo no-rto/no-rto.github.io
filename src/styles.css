@@ -18,6 +18,10 @@ body {
       display: block;
     }
 
+    table {
+      100vw;
+    }
+
     tr {
       margin: 0 0 1rem 0;
     }
