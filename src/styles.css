@@ -8,6 +8,37 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+li {
+  text-align: left;
+}
+
+.expand_box{
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+h3 {
+  text-align: left;
+}
+
+figcaption {
+  font-size: 10pt;
+  text-align: left;
+  background-color: #ffffe6;
+  padding: 10px;
+}
+
+#ei, #hi, #ct, #footnotes {
+  display: none;
+}
+
+#footnotes {
+  text-align: left;
+}
+
 @media
     only screen 
     and (max-width: 760px), (min-device-width: 768px) 
@@ -50,7 +81,7 @@ body {
   }
 
 a {
-  color: #1A2B53;
+  color: #002db3;
   text-decoration: none;
 }
 
@@ -112,6 +143,15 @@ td {
   vertical-align: top;
 }
 
+.main_ask {
+  padding: 10px;
+  font-size: 18pt;
+}
+
 p {
   text-align: left;
+}
+
+h2 {
+  text-decoration: none;
 }
