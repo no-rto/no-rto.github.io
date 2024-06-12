@@ -156,3 +156,21 @@ h2 {
   text-decoration: none;
 }
 
+.phonediv {
+  display: none;
+}
+
+.vizdiv {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .phonediv {
+    display: block;
+  }
+
+  .vizdiv {
+    display: none;
+  }
+}
+
