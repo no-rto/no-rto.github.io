@@ -164,6 +164,7 @@ h2 {
   display: block;
 }
 
+/*
 @media only screen and (max-device-width: 1280px) {
   .phonediv {
     display: block;
@@ -173,4 +174,4 @@ h2 {
     display: none;
   }
 }
-
+*/
