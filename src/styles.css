@@ -78,11 +78,13 @@ figcaption {
       margin-bottom: 5px;
     }
 
-    video {
-      width: 100%;
-    }
+
     /**/
   }
+
+video {
+      max-width: 100%;
+    }
 
 a {
   color: #002db3;
