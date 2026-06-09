@@ -77,6 +77,10 @@ figcaption {
       white-space: nowrap;
       margin-bottom: 5px;
     }
+
+    video {
+      width: 100%;
+    }
     /**/
   }
 
