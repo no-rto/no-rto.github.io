@@ -298,6 +298,7 @@ div.desc {
     width: 90%;
     padding: 10px;
     text-align: left;
+    margin-left: 0px;
   }
 }
 
