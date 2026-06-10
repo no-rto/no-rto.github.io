@@ -66,7 +66,77 @@
 
 		<h1 style="color: #DA2020;">Help Gavin break up with traffic</h1>
 
+		<p>Fortunately for Gavin, there is hope. A bill that would establish telework as the default work arrangement for state workers (<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1729" target="_new">AB 1729</a>) is currently moving through the California legislature.<a href="#l17"><sup>17</sup></a> The bill would re-establish the <a href="https://data.ca.gov/dataset/statewideworkforce/resource/3079ab38-f4aa-44ce-a836-b089c569e098" target="_new">DGS Telework Dashboard</a> to highlight annual savings attributable to telework.<a href="#l1"><sup>1</a></sup> The bill passed the California assembly and is now moving through the senate. If you want to help Gavin break up with traffic, <b>call or email your state senator and ask them to vote yes on AB 1729</b>. </p>
 
+		<h2 onclick = 'letitshow("cys")'><a href="#cys">Contact Your State Senator</a></h2>
+
+		<div id='cys' class='expand_box'>
+			<p>If you aren't sure who your state senator is or how to contact them, you can use <a href="https://findyourrep.legislature.ca.gov/" target="_new">the California legislature's Find Your California Representatives tool</a> to identify your senator and get a link to their official website.<a href="#l18"><sup>18</sup></a></p>
+
+			 <h3>Generate a Contact Message</h3>
+			 <div class="form">
+			 <form id="msg_form">
+				 I want to
+				 <input type="radio" id="phone" name="select_template" value="Phone"><label for="phone">Call my state senator</label>
+				 <input type="radio" id="text" name="select_template" value="Text"><label for="text">Email my state senator</label>
+
+				 <br />The cost(s) I care about are 
+				 <input type="checkbox" id="env_cost" name="impact" value="Environmental costs"><label for="env_cost">Environmental costs</label>
+				 <input type="checkbox" id="health_cost" name="impact" value="Health costs"><label for="health_cost">Health costs</label>
+				 <input type="checkbox" id="tax_cost" name="impact" value="Taxpayer costs"><label for="tax_cost">Taxpayer costs</label>
+
+				 <br />My state senator is 
+				 <select name="senator" id="senator_select">
+					<option value='Benjamin Allen'>Benjamin Allen</option>
+					<option value='Marie Alvarado-Gil'>Marie Alvarado-Gil</option>
+					<option value='Bob Archuleta'>Bob Archuleta</option>
+					<option value='Jesse Arreguín'>Jesse Arreguín</option>
+					<option value='Angelique Ashby'>Angelique Ashby</option>
+					<option value='Josh Becker'>Josh Becker</option>
+					<option value='Catherine S. Blakespear'>Catherine S. Blakespear</option>
+					<option value='Christopher Cabaldon'>Christopher Cabaldon</option>
+					<option value='Anna Caballero'>Anna Caballero</option>
+					<option value='Sabrina Cervantes'>Sabrina Cervantes</option>
+					<option value='Steven "Steve" Choi'>Steven "Steve" Choi</option>
+					<option value='Dave Cortese'>Dave Cortese</option>
+					<option value='Megan Dahle'>Megan Dahle</option>
+					<option value='Maria Elena Durazo'>Maria Elena Durazo</option>
+					<option value='Lena Gonzalez'>Lena Gonzalez</option>
+					<option value='Tim Grayson'>Tim Grayson</option>
+					<option value='Shannon Grove'>Shannon Grove</option>
+					<option value='Melissa Hurtado'>Melissa Hurtado</option>
+					<option value='Brian W. Jones'>Brian W. Jones</option>
+					<option value='John Laird'>John Laird</option>
+					<option value='Monique Limón'>Monique Limón</option>
+					<option value='Mike McGuire'>Mike McGuire</option>
+					<option value='Jerry McNerney'>Jerry McNerney</option>
+					<option value='Caroline Menjivar'>Caroline Menjivar</option>
+					<option value='Roger Niello'>Roger Niello</option>
+					<option value='Rosilicie Ochoa Bogh'>Rosilicie Ochoa Bogh</option>
+					<option value='Steve Padilla'>Steve Padilla</option>
+					<option value='Sasha Renée Pérez'>Sasha Renée Pérez</option>
+					<option value='Eloise Gómez Reyes'>Eloise Gómez Reyes</option>
+					<option value='Laura Richardson'>Laura Richardson</option>
+					<option value='Susan Rubio'>Susan Rubio</option>
+					<option value='Kelly Seyarto'>Kelly Seyarto</option>
+					<option value='Lola Smallwood-Cuevas'>Lola Smallwood-Cuevas</option>
+					<option value='Henry Stern'>Henry Stern</option>
+					<option value='Tony Strickland'>Tony Strickland</option>
+					<option value='Thomas Umberg'>Thomas Umberg</option>
+					<option value='Suzette Martinez Valladares'>Suzette Martinez Valladares</option>
+					<option value='Aisha Wahab'>Aisha Wahab</option>
+					<option value='Akilah Weber Pierson'>Akilah Weber Pierson</option>
+					<option value='Scott Wiener'>Scott Wiener</option>
+				</select><span title="Find your state senator" id="info"><a href="https://findyourrep.legislature.ca.gov/" target="_new">ⓘ</a></span> 
+				and my name is <input type="text" id="my_name" maxlength="60" style="margin-left: 0px;">
+				<br />
+				<button type="button" onclick="gen_message(true)">Generate Message</button> <button type="button" onclick="gen_message(false)">Reset Form</button>
+				<br />
+				<div id="template_text"></div>
+			</form>
+
+			</div>
+		</div>
 
 		<div id='footnotes'>
 			<hr> 
@@ -90,6 +160,8 @@
 				<li id="l14">Miller, M. (2024, March 29). <a href="https://www.sacbee.com/news/politics-government/the-state-worker/article286611075.html" target="_new">California departments with return-to-office mandates praised telework in internal surveys</a>. <i>The Sacramento Bee.</i></li>
 				<li id="l15">Macht, D. (2023, January 31). <a href="https://www.kcra.com/article/gov-newsom-plans-to-convert-edd-headquarters-and-2-more-downtown-sacramento-office-buildings-into-affordable-housing/42725363" target="_new">Gov. Newsom plans to convert EDD headquarters and 2 more downtown Sacramento office buildings into housing.</a> <i>KCRA</i></li>
 				<li id="l16">California State Auditor. (2025, Aug. 12). <a href="https://www.auditor.ca.gov/reports/2024-118/" target="_new">2024-118 State Telework Policies</a>.</li>
+				<li id="l17">Assembly Members Lee, Hoover, Boerner, Connolly, Jackson, Nguyen, Ortega, Quirk-Silva, Ramos, and Ward. (2026, Feb. 5). <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1729" target="_new">AB-1729 State employment: telework programs</a>. California Legislature—2025-2026 Regular Session.</li>
+				<li id="l18">California Legislature. <a href="https://findyourrep.legislature.ca.gov/" target="_new">Find Your California Representatives</a>.</li>
 			</ol>
 		</div>
 	</div>	
