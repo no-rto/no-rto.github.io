@@ -254,6 +254,20 @@ div.desc {
   box-sizing: border-box;
 }
 
+#left_div {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  text-align: left;
+}
+
+#right_div {
+  width: 90%;
+  padding: 20px;
+  text-align: left; 
+  margin-left: 50%;
+}
+
 .responsive {
   padding: 0 6px;
   float: left;
@@ -265,11 +279,25 @@ div.desc {
     width: 49.99999%;
     margin: 6px 0;
   }
+
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+  }
+
+  #left_div {
+    width: 90%;
+    float: none;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #right_div {
+    width: 90%;
+    padding: 10px;
+    text-align: left;
   }
 }
 
