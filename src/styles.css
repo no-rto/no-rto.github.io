@@ -185,7 +185,7 @@ option {
     and (max-device-width: 1024px)  {
 
     /* Force table to not be like tables anymore */
-    table, td, tr {
+    table, td, th, tr {
       display: block;
     }
 
