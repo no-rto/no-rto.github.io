@@ -76,16 +76,17 @@
 			 <h3>Generate a Contact Message</h3>
 			 <div class="form">
 			 <form id="msg_form">
+			 	<hr />
 				 I want to
 				 <input type="radio" id="phone" name="select_template" value="Phone"><label for="phone">Call my state senator</label>
 				 <input type="radio" id="text" name="select_template" value="Text"><label for="text">Email my state senator</label>
 
-				 <br />The cost(s) I care about are 
+				 <hr />The cost(s) I care about are 
 				 <input type="checkbox" id="env_cost" name="impact" value="Environmental costs"><label for="env_cost">Environmental costs</label>
 				 <input type="checkbox" id="health_cost" name="impact" value="Health costs"><label for="health_cost">Health costs</label>
 				 <input type="checkbox" id="tax_cost" name="impact" value="Taxpayer costs"><label for="tax_cost">Taxpayer costs</label>
 
-				 <br />My state senator is 
+				 <hr />My state senator is 
 				 <select name="senator" id="senator_select">
 					<option value='Benjamin Allen'>Benjamin Allen</option>
 					<option value='Marie Alvarado-Gil'>Marie Alvarado-Gil</option>
@@ -129,14 +130,44 @@
 					<option value='Scott Wiener'>Scott Wiener</option>
 				</select><span title="Find your state senator" id="info"><a href="https://findyourrep.legislature.ca.gov/" target="_new">ⓘ</a></span> 
 				and my name is <input type="text" id="my_name" maxlength="60" style="margin-left: 0px;">
-				<br />
+				<hr />
 				<button type="button" onclick="gen_message(true)">Generate Message</button> <button type="button" onclick="gen_message(false)">Reset Form</button>
 				<br />
 				<div id="template_text"></div>
 			</form>
-
-			</div>
+			</div>	
 		</div>
+
+		<p>If you are a state worker, there are additional actions you can take to help Gavin break up with traffic above and beyond contacting your state senator.</p>
+
+		<h2 onclick = 'letitshow("swa")'><a href="#swa">State Worker Actions</a></h2>
+
+			<div id='swa' class='expand_box' style="width: 98%;">
+				<br />
+				<table>
+					<tr> 
+						<th width="50%" style="text-align: left; vertical-align: top;"><h3>Sign the No to RTO Sign-on Letter</h3></th>
+						<th width="50%" style="text-align: left; vertical-align: top;"><h3>Get Involved</h3></th>
+					</tr>
+					<tr>
+						<td width="50%" style="text-align: left; vertical-align: top;">
+							Whether or not you're a union member, supervisor, manager, or staff, all California state workers can sign the <a href="https://form.laborbase.org/260557089872874" target="_new">Coalition of California State Employee Unions: No to RTO Sign-on Letter</a>. <b>Tell the Governor you oppose the 4 day return to office mandate!</b>
+						</td>
+
+						<td width="50%" style="text-align: left;"> 					
+							Check out the resources below from state worker unions and worker coalitions for information on actions and other ways to get involved in the fight against mandatory traffic.
+							<br />
+							<ul>
+								<li><a href="https://capsscientists.org/show-up-speak-out/" target="_new">California Association of Professional Scientists (CAPS UAW 1115)</a></li>
+								<li><a href="https://www.seiu1000.org/rto/" target="_new">Service Employees International Union (SEIU) Local 1000</a></li>
+								<li><a href="https://calattorneys.org/" target="_new">California Legal Professionals (CASE)</a></li>
+								<li><a href="https://catelework.org/" target="_new">California Telework Alliance</a></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		<p>There's no way to know whether an intervention can Gavin's feelings about traffic. All we can do is try. <b>Tell Gavin to break up with traffic!</b></p>
 
 		<div id='footnotes'>
 			<hr> 

@@ -33,56 +33,13 @@ figcaption {
   padding: 10px;
 }
 
-#ei, #hi, #ct {
+#ei, #hi, #ct, #cys, #swa {
   display: none;
 }
 
 #footnotes {
   text-align: left;
 }
-
-@media
-    only screen 
-    and (max-width: 760px), (min-device-width: 768px) 
-    and (max-device-width: 1024px)  {
-
-    /* Force table to not be like tables anymore */
-    table, td, tr {
-      display: block;
-    }
-
-    table {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      width: 80vw;
-    }
-
-    tr {
-      margin: 0 0 1rem 0;
-    }
-      
-    td {
-      border: none;
-      border-bottom: 1px solid #eee;
-      position: relative;
-      padding-left: 50%;
-      margin-bottom: 5px;
-    }
-
-    td:before {
-      position: absolute;
-      top: 0;
-      left: 6px;
-      width: 45%;
-      padding-right: 10px;
-      white-space: nowrap;
-      margin-bottom: 5px;
-    }
-
-
-    /**/
-  }
 
 input {
   margin-right: 10px;
@@ -105,7 +62,7 @@ div {
 }
 
 .bdiv {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: relative;
   border-radius: 10px;
   width: 20%;
@@ -147,7 +104,10 @@ table {
   border-spacing: 5px;
   border-radius:10px;
   margin-top: -15px;
-  /*width: 70vw;*/
+}
+
+#cys hr {
+  border: 1px solid #cccccc ;
 }
 
 h1 {
@@ -158,7 +118,6 @@ td {
   background-color: #ffffff;
   border-radius: 5px;
   padding:5px;
-  /*width: 20%;*/
   vertical-align: top;
 }
 
@@ -191,7 +150,6 @@ button {
   border-radius: 5px;
   font-size: 12pt;
   margin-top: 20px;
-
 }
 
 input[type=text] {
@@ -215,20 +173,58 @@ option {
   font-size: 12pt;
 }
 
-/*
-@media only screen and (max-device-width: 1280px) {
-  .phonediv {
-    display: block;
-  }
-
-  .vizdiv {
-    display: none;
-  }
-}
-*/
-
 #info {
   padding-left: 2px;
   padding-right: 2px;
   font-size: 20pt;
+}
+
+@media
+    only screen 
+    and (max-width: 760px), (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+    /* Force table to not be like tables anymore */
+    table, td, tr {
+      display: block;
+    }
+
+    table {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      width: 80vw;
+    }
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+      
+    td {
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      margin-bottom: 5px;
+    }
+
+    td:before {
+      position: absolute;
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      margin-bottom: 5px;
+    }
+
+    .expand_box{
+      padding: 0px;
+      margin-top: -40px;
+    }
+
+    p {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }

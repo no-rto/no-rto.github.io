@@ -92,12 +92,12 @@ function gen_message(bool_arg){
 
       var line3 = line3_start + line3_mid + line3_end ;
 
-      var line4 = "As my representative, I'm asking you to vote yes on AB 1729. Thank you." ;
+      var line4 = "I'm asking you as my representative to vote yes on AB 1729. Thank you." ;
 
       t_string = t_string.concat(line1, line2, line3, line4, signoff) ;
 
       text_div.innerText = t_string;
-      text_div.style.backgroundColor = "#fefeae" ;
+      text_div.style.backgroundColor = "#E2FFD7" ;
       text_div.style.marginTop = "20px" ;
       text_div.style.textAlign = "left" ;
       text_div.style.padding = "20px" ;
