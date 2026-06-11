@@ -233,11 +233,10 @@ option {
       margin-bottom: 50px;
     }
 
-    .responsive {
-      width: 33.33333%;
-      margin: 6px 0;
-    }
+
 }
+
+
 
 /* Pasted from https://www.w3schools.com/howto/howto_css_image_gallery.asp */
 
@@ -318,6 +317,13 @@ div.desc {
   h2 {
     margin-bottom: 50px;
   }
+}
+
+@media only screen and (max-width: 1500px) {
+    .responsive {
+      width: 33.33333%;
+      margin: 6px 0;
+    }
 }
 
 .clearfix:after {
