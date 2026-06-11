@@ -232,11 +232,7 @@ option {
     h2 {
       margin-bottom: 50px;
     }
-
-
 }
-
-
 
 /* Pasted from https://www.w3schools.com/howto/howto_css_image_gallery.asp */
 
@@ -283,6 +279,13 @@ div.desc {
   width: 24.99999%;
 }
 
+@media only screen and (max-width: 1500px) {
+    .responsive {
+      width: 33.33333%;
+      margin: 6px 0;
+    }
+}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -319,12 +322,7 @@ div.desc {
   }
 }
 
-@media only screen and (max-width: 1500px) {
-    .responsive {
-      width: 33.33333%;
-      margin: 6px 0;
-    }
-}
+
 
 .clearfix:after {
   content: "";
