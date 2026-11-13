@@ -37,13 +37,18 @@ function letitshow(disp_obj){
 
 function gen_message(bool_arg){
   
-  var text_div = document.getElementById("template_text");
-  var t_string = "";
+  var text_div = document.getElementById("template_text") ;
+  var text_div_sen = document.getElementById("sen_text") ;
+  var text_div_am = document.getElementById("am_text") ;
+  var header_sen = document.getElementById("sen_header") ;
+  var header_am = document.getElementById("am_header");
+  var t_string = "" ;
 
   if(bool_arg){
 
       var selected  = document.getElementById("env_cost").value ;
-      var line1  = "Hello Senator "+ document.getElementById("senator_select").value ;
+      var line1_sen  = "Hello Senator "+ document.getElementById("senator_select").value ;
+      var line1_am   = "Hello Assemblymember "+ document.getElementById("assembly_select").value ; 
       var name   = document.getElementById("my_name").value
 
       if(document.getElementById("my_name").value){
@@ -56,10 +61,10 @@ function gen_message(bool_arg){
 
       // Default to email template unless phone is checked
       if(document.getElementById("phone").checked){
-        var line2 = ", I'm one of your constituents" + name_spacer + " I'm calling today to encourage you to support AB 1729. " ;
+        var line2 = ", I'm one of your constituents" + name_spacer + " I'm calling today to encourage you to exercise your power to override a veto. For decades now, the legislature has refused to exercise its constitutional authority to override a veto, resulting in an executive that is more powerful than what is outlined in the constitution. Californians deserve a legislature that is willing to keep the executive in check. You can start by overriding the governor's veto of AB 1729. " ;
         var signoff = '' ;
       } else {
-        var line2 = ",\n\nI'm writing to encourage you to support AB 1729. " ;
+        var line2 = ",\n\nI'm writing to encourage you to exercise your power to override a veto. For decades now, the legislature has refused to exercise its constitutional authority to override a veto, resulting in an executive that is more powerful than what is outlined in the constitution. Californians deserve a legislature that is willing to keep the executive in check. You can start by overriding the governor's veto of AB 1729. " ;
         if(document.getElementById("my_name").value){
           var signed_name = name ;
         } else {
@@ -92,11 +97,11 @@ function gen_message(bool_arg){
 
       var line3 = line3_start + line3_mid + line3_end ;
 
-      var line4 = "I'm asking you as my representative to vote yes on AB 1729. Thank you." ;
+      var line4 = "I'm asking you as my representative to override the governor's veto of AB 1729. Thank you." ;
 
-      t_string = t_string.concat(line1, line2, line3, line4, signoff) ;
+      sen_string = t_string.concat(line1_sen, line2, line3, line4, signoff) ;
+      am_string = t_string.concat(line1_am, line2, line3, line4, signoff, '\n\n') ;
 
-      text_div.innerText = t_string;
       text_div.style.backgroundColor = "#E2FFD7" ;
       text_div.style.marginTop = "20px" ;
       text_div.style.textAlign = "left" ;
@@ -105,12 +110,26 @@ function gen_message(bool_arg){
       text_div.style.paddingBottom = "20px" ;
       text_div.style.borderRadius = "20px" ;
 
+      header_sen.style.display = "inline" ;
+      header_am.style.display = "inline" ;
+      text_div_am.innerText = am_string ;
+      text_div_am.style.textAlign = "left" ;
+      text_div_sen.innerText = sen_string ;
+      text_div_sen.style.textAlign = "left" ;
+      text_div_am.style.display = "block" ;
+      text_div_sen.style.display = "block" ;
+
+
   } else {
     document.getElementById("msg_form").reset() ; 
+    header_sen.style.display = "none" ;
+    header_am.style.display = "none" ;
+    text_div_am.style.display = "none" ;
+    text_div_sen.style.display = "none" ;
     text_div.style.backgroundColor = "#ffffff" ;
     text_div.style.marginTop = "0px" ;
   }
 
-  text_div.innerText = t_string ;
+
 
 }
