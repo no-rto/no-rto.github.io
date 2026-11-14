@@ -315,10 +315,33 @@ div.desc {
   }
 }
 
+.quote {
+  font-style: italic ;
+}
 
+.source {
+  font-size: 10pt;
+}
+
+.event {
+  text-align: left; 
+  margin: 2.5%;
+  margin-left: 20% ;
+  padding: 5%;
+  width: 60%;
+  border-radius: 15px;
+  background-color: #4adf76;
+  fill-opacity: 90%;
+}
 
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.light {
+  width: 30px;
+  float: left; 
+  margin-right: 10px;
 }
