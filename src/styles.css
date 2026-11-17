@@ -355,7 +355,6 @@ div.desc {
 #mar_20 {
   background-image: -moz-element(#mar_2020);
   background-repeat: repeat-y;
-  background-blend-mode: luminosity; 
 }
 
 .year {
@@ -383,9 +382,9 @@ div.desc {
 }
 
 .repeat_month {
-  color: #aeaeae;
+  color: #dddddd;
   text-align: left;
-  font-size: 40pt;
+  font-size: 30pt;
 }
 
 .month::before {
