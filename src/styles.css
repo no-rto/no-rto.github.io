@@ -390,3 +390,7 @@ div.desc {
 .month::before {
   content: "\1F4C5  ";
 }
+
+.traffic {
+  text-shadow: 2px 2px white ;
+}
