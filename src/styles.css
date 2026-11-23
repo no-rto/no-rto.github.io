@@ -8,6 +8,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
+#wide_timeline {
+  display: block;
+  aria-hidden: false;
+}
+
+#mid_timeline {
+  display: none;
+  aria-hidden: true;
+}
+
+#long_timeline {
+  display: none;
+  aria-hidden: true;
+}
+
 li {
   text-align: left;
 }
@@ -289,6 +305,22 @@ div.desc {
     margin-bottom: 50px;
   }
 
+
+  #wide_timeline {
+    display: none;
+    aria-hidden: true;
+  }
+
+  #mid_timeline {
+    display: block;
+    aria-hidden: false;
+  }
+
+  #long_timeline {
+    display: none;
+    aria-hidden: true;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -319,11 +351,32 @@ div.desc {
     aria-hidden: true;
   }
 
+  #mid_timeline {
+    display: none;
+    aria-hidden: true;
+  }
+
   #long_timeline {
     display: block;
     aria-hidden: false;
   }
 
+  .event {
+    color: #282B53;
+    text-align: left; 
+    margin: 2.5%;
+    padding: 2.5%;
+    width: 90%;
+    border-radius: 15px;
+    fill-opacity: 90%;
+  }
+
+  .light {
+    width: 15px;
+    float: left; 
+    margin-right: 5px;
+    margin-top: 10px;
+  }
 }
 
 .quote {
