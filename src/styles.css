@@ -313,6 +313,17 @@ div.desc {
   h2 {
     margin-bottom: 50px;
   }
+
+  #wide_timeline {
+    display: none;
+    aria-hidden: true;
+  }
+
+  #long_timeline {
+    display: block;
+    aria-hidden: false;
+  }
+
 }
 
 .quote {
@@ -516,4 +527,28 @@ div.desc {
 
 .traffic {
   text-shadow: 2px 2px white ;
+}
+
+.gavinBox {
+  position: relative;
+  float: left;
+}
+
+.gavinBox .gavinB {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.gavinBox:hover .gavinB {
+  display: block;
+}
+
+
+.gavinBox:hover .gavinA {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
 }
