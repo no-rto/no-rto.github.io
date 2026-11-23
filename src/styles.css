@@ -317,6 +317,9 @@ div.desc {
 
 .quote {
   font-style: italic ;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .source {
@@ -354,6 +357,126 @@ div.desc {
 
 #mar_20 {
   background-image: -moz-element(#mar_2020);
+  background-repeat: repeat-y;
+}
+
+#may_20 {
+  background-image: -moz-element(#may_2020);
+  background-repeat: repeat-y;
+}
+
+#jun_20 {
+  background-image: -moz-element(#jun_2020);
+  background-repeat: repeat-y;
+}
+
+#apr_21 {
+  background-image: -moz-element(#apr_2021);
+  background-repeat: repeat-y;
+}
+
+#oct_21 {
+  background-image: -moz-element(#oct_2021);
+  background-repeat: repeat-y;
+}
+
+#jan_22 {
+  background-image: -moz-element(#jan_2022);
+  background-repeat: repeat-y;
+}
+
+#jan_23 {
+  background-image: -moz-element(#jan_2023);
+  background-repeat: repeat-y;
+}
+
+#jul_23 {
+  background-image: -moz-element(#jul_2023);
+  background-repeat: repeat-y;
+}
+
+#dec_23 {
+  background-image: -moz-element(#dec_2023);
+  background-repeat: repeat-y;
+}
+
+#jan_24 {
+  background-image: -moz-element(#jan_2024);
+  background-repeat: repeat-y;
+}
+
+#feb_24 {
+  background-image: -moz-element(#feb_2024);
+  background-repeat: repeat-y;
+}
+
+#mar_24 {
+  background-image: -moz-element(#mar_2024);
+  background-repeat: repeat-y;
+}
+
+#apr_24 {
+  background-image: -moz-element(#apr_2024);
+  background-repeat: repeat-y;
+}
+
+#oct_24 {
+  background-image: -moz-element(#oct_2024);
+  background-repeat: repeat-y;
+}
+
+#mar_25 {
+  background-image: -moz-element(#mar_2025);
+  background-repeat: repeat-y;
+}
+
+#apr_25 {
+  background-image: -moz-element(#apr_2025);
+  background-repeat: repeat-y;
+}
+
+#may_25 {
+  background-image: -moz-element(#may_2025);
+  background-repeat: repeat-y;
+}
+
+#jun_25 {
+  background-image: -moz-element(#jun_2025);
+  background-repeat: repeat-y;
+}
+
+#jul_25 {
+  background-image: -moz-element(#jul_2025);
+  background-repeat: repeat-y;
+}
+
+#aug_25 {
+  background-image: -moz-element(#aug_2025);
+  background-repeat: repeat-y;
+}
+
+#may_26 {
+  background-image: -moz-element(#may_2026);
+  background-repeat: repeat-y;
+}
+
+#jul_26 {
+  background-image: -moz-element(#jul_2026);
+  background-repeat: repeat-y;
+}
+
+#aug_26 {
+  background-image: -moz-element(#aug_2026);
+  background-repeat: repeat-y;
+}
+
+#sep_26 {
+  background-image: -moz-element(#sep_2026);
+  background-repeat: repeat-y;
+}
+
+#oct_26 {
+  background-image: -moz-element(#oct_2026);
   background-repeat: repeat-y;
 }
 
