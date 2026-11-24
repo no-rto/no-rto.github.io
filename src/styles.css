@@ -592,10 +592,10 @@ div.desc {
   .event {
     color: #282B53;
     text-align: left; 
-    margin: 2.5%;
-    padding: 2.5%;
-    width: 90%;
-    border-radius: 15px;
+    margin: 1.5%;
+    padding: 1.5%;
+    width: 95%;
+    border-radius: 10px;
     fill-opacity: 90%;
   }
 
@@ -603,6 +603,28 @@ div.desc {
     width: 15px;
     float: left; 
     margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
+  }
+
+  blockquote {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .month {
+    font-size: 30pt;
+    padding-left: 5px;
+  }
+
+  .big {
+    font-size: 18pt;
+  }
+
+  ul {
+    margin-left: 15px;
+  }
+
+  ol {
+    marginn-left: 15px;
   }
 }
