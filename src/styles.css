@@ -601,8 +601,8 @@ div.desc {
   .light {
     width: 15px;
     float: left; 
-    margin-right: 5px;
-    margin-top: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
   }
 
   blockquote {
@@ -618,7 +618,6 @@ div.desc {
 
   .big {
     font-size: 18pt;
-    margin-left: 10px;
   }
 
   ul {
@@ -631,11 +630,6 @@ div.desc {
 
   img {
     margin-top: 10px;
-  }
-
-  .gavinBox {
-    position: static;
-    float: none;
   }
 
 }
