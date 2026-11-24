@@ -460,7 +460,6 @@ div.desc {
   display: block;
 }
 
-
 .gavinBox:hover .gavinA {
   position: absolute;
   left: 0;
@@ -614,10 +613,12 @@ div.desc {
   .month {
     font-size: 30pt;
     padding-left: 5px;
+    margin-bottom: 20px;
   }
 
   .big {
     font-size: 18pt;
+    margin-left: 10px;
   }
 
   ul {
@@ -625,6 +626,16 @@ div.desc {
   }
 
   ol {
-    marginn-left: 15px;
+    margin-left: 15px;
   }
+
+  img {
+    margin-top: 10px;
+  }
+
+  .gavinBox {
+    position: static;
+    float: none;
+  }
+
 }
