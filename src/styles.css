@@ -539,13 +539,17 @@ div.desc {
   }
 
   #mid_timeline {
-    display: block;
-    aria-hidden: false;
+    /*display: block;
+    aria-hidden: false;*/
+    display: none;
+    aria-hidden: true;
   }
 
   #long_timeline {
-    display: none;
-    aria-hidden: true;
+    /*display: none;
+    aria-hidden: true;*/
+    display: block;
+    aria-hidden: false;
   }
 
 }
