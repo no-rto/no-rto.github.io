@@ -628,6 +628,10 @@ div.desc {
     margin-left: 15px;
   }
 
+  li {
+    margin-left: -15px;
+  }
+
   img {
     margin-top: 10px;
   }
