@@ -625,13 +625,13 @@ div.desc {
     font-size: 18pt;
   }
   ul {
-    margin-left: 0px;
+    margin-left: -10px;
   }
   ol {
-    margin-left: 0px;
+    margin-left: -10px;
   }
   li {
-    margin-left: 0px;
+    margin-left: -10px;
   }
   img {
     margin-top: 10px;
