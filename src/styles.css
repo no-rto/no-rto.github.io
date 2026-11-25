@@ -417,8 +417,9 @@ div.desc {
 
 .month {
   font-size: 40pt;
-  padding-left: 20%;
-  margin-bottom: -20px;
+  text-align: center;
+  /*padding-left: 20%;*/
+  margin-bottom: -10px;
 }
 
 .green {
@@ -560,6 +561,11 @@ div.desc {
     aria-hidden: true;*/
     display: block;
     aria-hidden: false;
+  }
+  .month {
+      font-size: 30 pt;
+      margin-bottom: 20 px;
+      text-align: center;
   }
 }
 
